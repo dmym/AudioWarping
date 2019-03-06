@@ -1,0 +1,35 @@
+marker 0.1 0.3
+marker 1.0 0.5
+end_tempo 2.0
+b2s -0.8
+b2s 0.55
+b2s 3.0
+s2b 0.1
+s2b 0.4
+s2b 2.5
+
+marker 1.0 2.0
+marker 2.0 4.0
+end_tempo 10.0
+b2s -1.0
+b2s 1.0
+b2s 3.0
+s2b 0.0
+s2b 2.5
+s2b 5
+marker 4.5 4.5
+s2b 5
+
+marker 1.0 3.0
+end_tempo 2.0
+b2s 0.0
+s2b 1.0
+s2b 5
+
+marker 0.0 1.0
+marker 3.0 7.0
+marker 5.0 9.0
+end_tempo 10.0
+b2s 0.0
+b2s 4.0
+s2b 11.0

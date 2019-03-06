@@ -1,0 +1,10 @@
+# visual studio cache/options
+.vs/
+.vscode/
+
+# artefacts
+x64/
+packages/
+
+# user specific files 
+*.user

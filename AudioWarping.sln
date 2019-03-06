@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioWarping", "AudioWarping\AudioWarping.vcxproj", "{412F46A4-6557-4038-84DB-90D883B340C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioWarpingApp", "AudioWarpingApp\AudioWarpingApp.vcxproj", "{91EC57B9-3F83-4FE5-8413-F1CC59D68672}"
+	ProjectSection(ProjectDependencies) = postProject
+		{412F46A4-6557-4038-84DB-90D883B340C6} = {412F46A4-6557-4038-84DB-90D883B340C6}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AudioWarpingTest", "AudioWarpingTest\AudioWarpingTest.vcxproj", "{AA912A59-BEFA-442F-9AB5-4BE1E87B3612}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{412F46A4-6557-4038-84DB-90D883B340C6}.Debug|x64.ActiveCfg = Debug|x64
+		{412F46A4-6557-4038-84DB-90D883B340C6}.Debug|x64.Build.0 = Debug|x64
+		{412F46A4-6557-4038-84DB-90D883B340C6}.Debug|x86.ActiveCfg = Debug|Win32
+		{412F46A4-6557-4038-84DB-90D883B340C6}.Debug|x86.Build.0 = Debug|Win32
+		{412F46A4-6557-4038-84DB-90D883B340C6}.Release|x64.ActiveCfg = Release|x64
+		{412F46A4-6557-4038-84DB-90D883B340C6}.Release|x64.Build.0 = Release|x64
+		{412F46A4-6557-4038-84DB-90D883B340C6}.Release|x86.ActiveCfg = Release|Win32
+		{412F46A4-6557-4038-84DB-90D883B340C6}.Release|x86.Build.0 = Release|Win32
+		{91EC57B9-3F83-4FE5-8413-F1CC59D68672}.Debug|x64.ActiveCfg = Debug|x64
+		{91EC57B9-3F83-4FE5-8413-F1CC59D68672}.Debug|x64.Build.0 = Debug|x64
+		{91EC57B9-3F83-4FE5-8413-F1CC59D68672}.Debug|x86.ActiveCfg = Debug|Win32
+		{91EC57B9-3F83-4FE5-8413-F1CC59D68672}.Debug|x86.Build.0 = Debug|Win32
+		{91EC57B9-3F83-4FE5-8413-F1CC59D68672}.Release|x64.ActiveCfg = Release|x64
+		{91EC57B9-3F83-4FE5-8413-F1CC59D68672}.Release|x64.Build.0 = Release|x64
+		{91EC57B9-3F83-4FE5-8413-F1CC59D68672}.Release|x86.ActiveCfg = Release|Win32
+		{91EC57B9-3F83-4FE5-8413-F1CC59D68672}.Release|x86.Build.0 = Release|Win32
+		{AA912A59-BEFA-442F-9AB5-4BE1E87B3612}.Debug|x64.ActiveCfg = Debug|x64
+		{AA912A59-BEFA-442F-9AB5-4BE1E87B3612}.Debug|x64.Build.0 = Debug|x64
+		{AA912A59-BEFA-442F-9AB5-4BE1E87B3612}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA912A59-BEFA-442F-9AB5-4BE1E87B3612}.Debug|x86.Build.0 = Debug|Win32
+		{AA912A59-BEFA-442F-9AB5-4BE1E87B3612}.Release|x64.ActiveCfg = Release|x64
+		{AA912A59-BEFA-442F-9AB5-4BE1E87B3612}.Release|x64.Build.0 = Release|x64
+		{AA912A59-BEFA-442F-9AB5-4BE1E87B3612}.Release|x86.ActiveCfg = Release|Win32
+		{AA912A59-BEFA-442F-9AB5-4BE1E87B3612}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {07592D26-D452-4959-8E99-E6FA59F3A9B5}
+	EndGlobalSection
+EndGlobal
